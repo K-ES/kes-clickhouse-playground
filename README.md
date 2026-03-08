@@ -1,3 +1,5 @@
+2026.03.08 07:31 Знакомство с DataLens https://www.youtube.com/watch?v=ntlppg2JhxU
+2026.03.08 07:00 Изучение DataLens
 2026.03.08 06:42 Скрипт пересоздания. Сохраню тут.
 	PS S:\ClickHouse\ForDocker> docker run --name clickhouse-course `
 	>> -e CLICKHOUSE_DB=learn_db `
