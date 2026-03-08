@@ -1,3 +1,4 @@
+# очистка docker
 docker system prune -a
 
 docker rm -f clickhouse-course 2>$null
@@ -25,4 +26,15 @@ docker run --name clickhouse-course `
 -e CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT=1 `
 -p 8123:8123 `
 -p 9000:9000 `
+-d clickhouse/clickhouse-server:25.4
+
+docker run --name clickhouse-course `
+-e CLICKHOUSE_DB=learn_db `
+-e CLICKHOUSE_USER=username `
+-e CLICKHOUSE_PASSWORD=password `
+-e CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT=1 `
+-p 8123:8123 `
+-p 9000:9000 `
+-v clickhouse-data:/var/lib/clickhouse `
+-v clickhouse-logs:/var/log/clickhouse-server `
 -d clickhouse/clickhouse-server:25.4

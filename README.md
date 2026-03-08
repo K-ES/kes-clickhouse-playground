@@ -1,3 +1,18 @@
+2026.03.08 06:42 Скрипт пересоздания. Сохраню тут.
+	PS S:\ClickHouse\ForDocker> docker run --name clickhouse-course `
+	>> -e CLICKHOUSE_DB=learn_db `
+	>> -e CLICKHOUSE_USER=username `
+	>> -e CLICKHOUSE_PASSWORD=password `
+	>> -e CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT=1 `
+	>> -p 8123:8123 `
+	>> -p 9000:9000 `
+	>> -v clickhouse-data:/var/lib/clickhouse `
+	>> -v clickhouse-logs:/var/log/clickhouse-server `
+	>> -d clickhouse/clickhouse-server:25.4
+	4c051daf593ef6bb55ee572c78c70537cc7a7009544f2b9f4219bf88f7f56875
+	PS S:\ClickHouse\ForDocker
+
+2026.03.08 06:41 Добился внятного сохранения томпа. Поразбирался с бекапированием томов. Ухожу обратно в курс. 
 2026.03.08 05:45 Закрыл тему с глюком Дашборда. 
 	docker run --name clickhouse-course `
 	-e CLICKHOUSE_DB=learn_db `
