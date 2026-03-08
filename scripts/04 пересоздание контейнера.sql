@@ -1,0 +1,19 @@
+docker run --name clickhouse-course `
+-e CLICKHOUSE_DB=learn_db `
+-e CLICKHOUSE_USER=username `
+-e CLICKHOUSE_PASSWORD=password `
+-e CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT=1 `
+-p 8123:8123 `
+-p 9000:9000 `
+-v ./logs/clickhouse:/var/log/clickhouse-server `
+-v ./data/clickhouse:/var/lib/clickhouse `
+-d clickhouse/clickhouse-server:25.4
+
+docker run --name clickhouse-course `
+-e CLICKHOUSE_DB=learn_db `
+-e CLICKHOUSE_USER=username `
+-e CLICKHOUSE_PASSWORD=password `
+-e CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT=1 `
+-p 8123:8123 `
+-p 9000:9000 `
+-d clickhouse/clickhouse-server:25.4

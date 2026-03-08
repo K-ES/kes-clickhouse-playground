@@ -1,0 +1,2 @@
+SELECT student_profile_id, person_id, person_id_int, educational_organization_id, parallel_id, class_id, lesson_date, lesson_month_digits, lesson_month_text, lesson_year, load_date, t, teacher_id, subject_id, subject_name, mark
+FROM learn_db.mart_student_lesson;

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="0">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="637" startPos="22" endPos="0" selMode="0" offset="0" wrapCount="1" lang="&#x041E;&#x0431;&#x044B;&#x0447;&#x043D;&#x044B;&#x0439; &#x0422;&#x0435;&#x043A;&#x0441;&#x0442;" encoding="-1" userReadOnly="no" filename="S:\ClickHouse\Git\kes-clickhouse-playground\docker-&#x0437;&#x0430;&#x043F;&#x0438;&#x0441;&#x043A;&#x0438;.txt" backupFilePath="" originalFileLastModifTimestamp="671874346" originalFileLastModifTimestampHigh="31239854" tabColourId="-1" RTL="no" tabPinned="no" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1456" startPos="515" endPos="515" selMode="0" offset="0" wrapCount="1" lang="Markdown (preinstalled)" encoding="-1" userReadOnly="no" filename="S:\ClickHouse\Git\kes-clickhouse-playground\README.md" backupFilePath="" originalFileLastModifTimestamp="233488144" originalFileLastModifTimestampHigh="31239854" tabColourId="-1" RTL="no" tabPinned="no" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>
